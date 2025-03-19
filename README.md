@@ -1,4 +1,4 @@
-# Setup
+# MacOS Development Setup
 
 ## Terminal
 
@@ -17,3 +17,33 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
 3. Start a new terminal session.
+
+### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#in-your-zshrc)
+
+1. Simply clone this repository and source the script:
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
+
+2. Then, enable syntax highlighting in the current interactive shell:
+
+```
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+### 
+
+
+---
+
+## Visual Studio Code
+
+### Git Graph
+
+### Git Lense
+
+### Postman
+
+### Continue.dev
