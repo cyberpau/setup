@@ -33,6 +33,15 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
+### [wget](#)
+1. Install wget
+   
+```
+brew install wget
+```
+
+   
+
 ### 
 
 
